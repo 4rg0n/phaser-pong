@@ -1,27 +1,39 @@
 {
   "name": "phaser-pong",
+  "description": "",
+  "readme": "",
+  "repository": "",
   "version": "0.0.1",
-  "description": "Pong",
-  "main": "web/index.js",
-  "keywords": [
-    "pong",
-    "html5",
-    "browser"
-  ],
+  "readme": "",
   "repository": {
     "type": "git",
-    "url": "git://github.com/4rg0n/phaser-pong.git"
+    "url": "git://github.com/4rg0n/phaser-pong"
   },
-  "author": {
-    "name": "Dominic Roenicke",
-    "email": "argonthechecker@gmail.com"
+  "dependencies": {},
+  
+  "devDependencies": {
+    "bower": "*",
+    "gulp": "*",
+    "gulp-util": "*",
+    "gulp-clean": "*",
+    "gulp-concat": "*",
+    "gulp-download": "*",
+    "gulp-rename": "*",
+    "gulp-minify-css": "*",
+    "gulp-minify-html": "*",
+    "gulp-processhtml": "*",
+    "gulp-jshint": "*",
+    "gulp-uglify": "*",
+    "gulp-connect": "*",
+    "gulp-watch": "*",
+    "tiny-lr": "*"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/4rg0n/phaser-pong/blob/master/LICENSE"
-  },
-  "dependencies": {
-    "http-server": "0.7.4",
-    "phaser": "2.2.1"
+
+  "scripts": {
+    "post-install": "node ./node_modules/bower/bin/bower install",
+    "start": "node ./node_modules/gulp/bin/gulp.js",
+
+    "build": "node ./node_modules/gulp/bin/gulp.js build",
+    "lint":  "node ./node_modules/gulp/bin/gulp.js lint"
   }
 }
