@@ -1,0 +1,27 @@
+{
+  "name": "phaser-pong",
+  "version": "0.0.1",
+  "description": "Pong",
+  "main": "web/index.js",
+  "keywords": [
+    "pong",
+    "html5",
+    "browser"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/4rg0n/phaser-pong.git"
+  },
+  "author": {
+    "name": "Dominic Roenicke",
+    "email": "argonthechecker@gmail.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/4rg0n/phaser-pong/blob/master/LICENSE"
+  },
+  "dependencies": {
+    "http-server": "0.7.4",
+    "phaser": "2.2.1"
+  }
+}
